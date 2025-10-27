@@ -1,5 +1,30 @@
 # pokemon_data
 
+フォーク後に ポケモンデータを読み取って sqlite データベースに変換、その後 SQL にて各種情報を取り出す例を書きました。
+詳細は main.ts をご覧ください。
+
+動作確認環境:
+
+```plaintext
+$ deno --version
+deno 2.3.3 (stable, release, aarch64-apple-darwin)
+v8 13.7.152.6-rusty
+typescript 5.8.3
+```
+
+main.ts を実行:
+
+```plaintext
+$ deno --allow-read --allow-write main.ts
+```
+
+実行方法の詳細は Makefile をご覧ください。
+
+
+
+
+
+
 ポケットモンスターの全ポケモンの日本語データです。ご自由にお使いください。
 
 data/pokemon_data.jsonファイルにデータが入っています。
